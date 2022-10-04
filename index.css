@@ -1,0 +1,537 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #ffffff;
+}
+.nav {
+  padding: 0px;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.55);
+  -webkit-box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.55);
+}
+#nav {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 20px;
+}
+#nav-bar {
+  padding: 0px;
+}
+.vari {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.sub-m {
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 260px 260px;
+  gap: 15px;
+  padding: 0px 30px;
+}
+.m1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  background-image: url("./img/Bitmap.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+.menu-info1 {
+  background-color: #342679;
+  opacity: 0.8;
+  height: 60%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.p1 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+.p2 {
+  color: #ffffff;
+  width: auto;
+  margin: 0px;
+  font-size: 15px;
+
+  margin-bottom: 10px;
+}
+.m2 {
+  background-image: url("./img/Bitmap\ \(1\).png");
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+.m3 {
+  background-image: url("./img/Bitmap\ \(2\).png");
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+.m4 {
+  background-image: url("./img/Bitmap\ \(3\).png");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+.m5 {
+  background-image: url("./img/Bitmap\ \(4\).png");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+.menu-info2 {
+  background-color: #ffffff;
+  height: 60%;
+  opacity: 0.8;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  width: 100%;
+}
+.p3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+  margin: 0px;
+}
+.p4 {
+  font-size: 10px;
+  margin-top: 5px;
+  width: auto;
+}
+.btn1 {
+  color: #ffffff;
+  border-style: solid;
+  border-color: white;
+  width: 100px;
+  height: 35px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  border-width: 1px;
+  font-size: 15px;
+}
+.country {
+  margin-top: 100px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+.p5 {
+  font-size: 10px;
+  width: 400px;
+}
+.chefs {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.chef-review {
+  background-image: url("./img/Mask\ Group.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 200px;
+}
+.chef {
+  height: 300px;
+  text-align: center;
+}
+#chef-j {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#chef-r {
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+#chef-a {
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.p6 {
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.chef-j {
+  color: white;
+}
+.chef-a {
+  color: white;
+}
+.chef-r {
+  background-color: white;
+  border-radius: 15px;
+  width: 400px;
+}
+.p7 {
+  width: 380px;
+  margin-left: 10px;
+}
+.guide {
+  background-image: url("./img/4th\ Food\ Banner\ 3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.food {
+  width: 100px;
+  height: 100px;
+}
+.table {
+  text-align: center;
+}
+.p8 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.p9 {
+  width: 350px;
+  margin: auto;
+  font-size: 10px;
+}
+.grain {
+  grid-column: 3/4;
+  margin-top: 150px;
+}
+.veg {
+  margin-top: 150px;
+}
+
+.fruit {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.protien {
+  grid-column: 3/4;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.food-head {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.social {
+  width: 40px;
+  height: 40px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+.footer-logo {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.varieties {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.underline1 {
+  width: 80px;
+  opacity: 1;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+#underline1 {
+  display: flex;
+  justify-content: center;
+}
+#underline2 {
+  height: 2px;
+  opacity: 1;
+  background-color: white;
+  width: 100%;
+}
+.underline2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 0px 0px;
+}
+#btn {
+  border-color: white;
+  background-color: transparent;
+  border-radius: 15px;
+  width: 120px;
+}
+#star {
+  /* margin-left:450px ; */
+  width: 20px;
+  height: 20px;
+}
+
+.info-btn {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#underline3 {
+  width: 100%;
+  height: 0.5px;
+  opacity: 1;
+  margin-bottom: 5px;
+}
+#underline4 {
+  width: 100%;
+  height: 0.5px;
+  opacity: 1;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+#btn2 {
+  background-color: transparent;
+  color: black;
+  border-color: transparent;
+  padding-left: 0px;
+}
+.info-btn2 {
+  display: flex;
+  justify-content: space-between;
+}
+#star2 {
+  width: 20px;
+  height: 20px;
+}
+#rate2 {
+  width: 30px;
+  height: 10px;
+}
+.country-dish {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.top-chef {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+#underline5 {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  opacity: 1;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.underline5 {
+  display: flex;
+  justify-content: center;
+}
+.food-gui {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+#underline6 {
+  width: 60px;
+  height: 3px;
+  background-color: black;
+  opacity: 1;
+  margin: 0px;
+}
+.underline6 {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1360px) {
+  .country {
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 1250px) {
+  .country {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .country-dish {
+    display: flex;
+    justify-content: center;
+  }
+  .p5 {
+    margin-bottom: 30px;
+    line-height: 20px;
+  }
+  .chef-review {
+    padding: 0px 150px;
+  }
+  .m1 {
+    width: max-content;
+    width: 100%;
+  }
+  .menu {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 225px 225px 300px 300px;
+  }
+  .menu-info1 {
+    width: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  .chef-review {
+    padding: 0px 90px;
+  }
+}
+@media (max-width: 924px) {
+  .chef-review {
+    padding: 0px 50px;
+  }
+}
+@media (max-width: 840px) {
+  .chef-review {
+    padding: 0px 30px;
+  }
+}
+@media (max-width: 769px) {
+  .chef-review {
+    padding: 0px 0px;
+  }
+  .guide {
+    display: flex;
+    flex-direction: column;
+  }
+  .grain {
+    grid-row: 2/3;
+  }
+  .table {
+    margin: 0px;
+  }
+  #underline6 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 758px) {
+  .m1 {
+    height: 550px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+  .m2 {
+    height: 200px;
+  }
+  .m3 {
+    height: 200px;
+  }
+  .m4 {
+    height: 200px;
+  }
+  .m5 {
+    height: 200px;
+  }
+
+  .chef-review {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 696px) {
+  .chef-r {
+  }
+  .p7 {
+    width: auto;
+    margin: 10px 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .p5 {
+    width: 300px;
+  }
+  .chef-r {
+    width: 300px;
+  }
+  .info-btn {
+    padding: 0px;
+  }
+  .info-btn {
+    padding: 40px 0px;
+  }
+}
+@media (max-width: 345px) {
+  .p9 {
+    width: auto;
+  }
+  #btn {
+    width: auto;
+  }
+  .m1 {
+    height: 580px;
+  }
+  .info-btn {
+    padding: 0px;
+  }
+}
+@media (max-width: 321px) {
+  .chef-review {
+    height: max-content;
+  }
+}
